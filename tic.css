@@ -1,0 +1,60 @@
+/* Tic-Tac-Toe Styles */
+.tic-tac-toe-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: 300px;
+  margin: 20px auto;
+}
+.cell {
+  background: #44444481;
+  color: white;
+  font-size: 2rem;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.63);
+  cursor: pointer;
+}
+.cell:hover {
+  background: #050505;
+}
+p{
+    color: #ffffff;
+}
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+header {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+.game-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+button {
+  padding: 10px 20px;
+  background: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #ff6347;
+}
